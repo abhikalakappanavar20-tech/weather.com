@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<div class="app">
+    <div class="top-bar">
+        <h1>Weather</h1>
+        <p class="date">Monday, 6 Feb</p>
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search city..." class="search-input">
+        <button class="search-btn">🔍</button>
+    </div>
+
+    <div class="weather-main fade-in">
+        <img class="weather-icon" src="https://cdn-icons-png.flaticon.com/512/1779/1779940.png" alt="weather" width="50" height="50">
+        <h2 class="temp">28°</h2>
+        <h1>Now weather</h1>
+        <p class="condition">Clear Sky</p>
+        <p class="location">📍 HUBLI</p>
+    </div>
+
+    <div class="details">
+        <div class="card slide-up">
+            <p class="value">30°</p>
+            <p class="label">Feels Like</p>
+        </div>
+
+        <div class="card slide-up">
+            <p class="value">60%</p>
+            <p class="label">Humidity</p>
+        </div>
+
+        <div class="card slide-up">
+            <p class="value">12 km/h</p>
+            <p class="label">Wind</p>
+        </div>
+
+        <div class="card slide-up">
+            <p class="value">1013 hPa</p>
+            <p class="label">Pressure</p>
+        </div>
+    </div>
+</div>
+<script src="weather.js"></script>
+
+</body>
+</html>
